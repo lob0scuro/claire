@@ -1,0 +1,19 @@
+.homeHeader {
+  text-shadow: -2px 2px 2px #b27197;
+  font-size: 3rem;
+}
+
+.taskList {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .taskList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

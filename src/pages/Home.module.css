@@ -1,0 +1,56 @@
+@import "../index.css";
+
+.homeHeader {
+  text-shadow: -2px 2px 2px #b27197;
+  font-size: 3rem;
+}
+
+.homeButtonBlock {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  width: fit-content;
+  margin-top: 4rem;
+}
+
+.homeButtonBlock a {
+  width: fit-content;
+  padding: 0.4rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--bg-color1);
+  background-color: var(--bg-color2);
+  font-weight: 900;
+  font-size: 3rem;
+  border: 8px solid var(--fg-color1);
+  box-shadow: -4px 4px 9px #887887;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.homeButtonBlock a:first-child {
+  background-color: var(--fg-color2);
+  color: yellow;
+}
+
+.homeButtonBlock a:last-child {
+  background-color: rgba(55, 11, 105, 0.637);
+  color: var(--hl-color);
+}
+
+@media screen and (max-width: 500px) {
+  .homeHeader {
+    font-size: 2.4rem;
+  }
+  .homeButtonBlock {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .homeButtonBlock a {
+    font-size: 2.4rem;
+    border: none;
+  }
+}
