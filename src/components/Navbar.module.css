@@ -18,7 +18,7 @@
   font-weight: 900;
 }
 
-.header p {
+.header div {
   font-size: 1.2rem;
   font-weight: 500;
   display: flex;
@@ -28,7 +28,7 @@
   color: #f9f9f9;
 }
 
-.header p span {
+.header div p span {
   font-size: 1.4rem;
   font-weight: 700;
   /* color: var(--hl-color); */
@@ -46,13 +46,14 @@
     color: var(--hl-color);
   }
 
-  .header p {
+  .header div {
     width: 100vw;
     /* flex-direction: row; */
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 1.4rem;
     gap: 1rem;
     font-weight: 900;
+    padding-left: 1.5rem;
   }
 }

@@ -46,21 +46,21 @@ const Navbar = () => {
       <h1>
         Claires <Link to="/">ToDo's</Link>
       </h1>
-      <p>
-        <div>
+      <div>
+        <p>
           <span>
             <FaCalendarAlt />
           </span>
           &nbsp;&nbsp;{formattedDate}
-        </div>
-        <div>
+        </p>
+        <p>
           <span>
             <MdAccessTimeFilled />
           </span>
           &nbsp;&nbsp;
           {time}
-        </div>
-      </p>
+        </p>
+      </div>
     </header>
   );
 };
