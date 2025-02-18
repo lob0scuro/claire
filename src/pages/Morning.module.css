@@ -12,8 +12,8 @@
 
 @media screen and (max-width: 500px) {
   .taskList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
   }
 }

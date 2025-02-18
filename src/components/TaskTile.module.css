@@ -27,3 +27,19 @@
   text-shadow: -1px 1px 2px var(--fg-color1);
   margin-top: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+  .taskTile {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .taskTile img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .taskTitle {
+    font-size: 1rem;
+  }
+}

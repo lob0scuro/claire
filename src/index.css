@@ -24,6 +24,8 @@ html {
   color: var(--fg-color1);
   font-family: "Indie Flower", serif;
   padding-bottom: 5rem;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .app-container {
