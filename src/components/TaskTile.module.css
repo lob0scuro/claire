@@ -11,6 +11,7 @@
   border-radius: 12px;
   width: 12rem;
   height: auto;
+  font-family: "Indie Flower", serif;
 }
 
 .taskTile img {
@@ -22,7 +23,7 @@
 .taskTitle {
   color: #f9f9f9;
   font-weight: 900;
-  font-size: 1.6rem;
+  font-size: 2rem;
   width: 100%;
   text-shadow: -1px 1px 2px var(--fg-color1);
   margin-top: 1rem;

@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <header className={styles.header}>
       <h1>
-        Claires <Link to="/">ToDo's</Link>
+        Claire's <Link to="/">ToDos</Link>
       </h1>
       <div>
         <p>
